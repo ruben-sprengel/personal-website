@@ -1,0 +1,23 @@
+services:
+  sveltekit-app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    restart: always
+    labels:
+      - 'caddy=${CADDY}'
+      - 'caddy.reverse_proxy=${CADDY_REVERSE_PROXY}'
+    env_file:
+      - .env
+    networks:
+      - personal-website
+      - caddy
+
+networks:
+  caddy:
+    name: caddy
+    external: true
+  personal-website:
+    name: personal-website
+    external: false
+    driver: bridge
