@@ -64,9 +64,5 @@
 				</Card.Root>
 			{/each}
 		</div>
-		<p class="mt-4 max-w-2xl text-xl font-light text-gray-700 md:text-2xl dark:text-gray-400">
-			Gefallen Ihnen diese Projekte? Hinterlassen Sie gerne einen 'Stern' beim betroffenen GitHub
-			Repo. Danke!
-		</p>
 	</div>
 </section>

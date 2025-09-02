@@ -5,32 +5,27 @@
 <section class="mx-auto min-h-screen w-full max-w-4xl px-4 py-16">
 	<h1 class="mb-8 text-4xl font-bold">Impressum</h1>
 
-	<h2 id="m46" class="mt-8 mb-4 text-2xl font-semibold">Diensteanbieter</h2>
-	<address class="space-y-1 text-lg text-gray-700 not-italic dark:text-gray-300">
-		<p>{PUBLIC_OWNER_NAME}</p>
-	</address>
+	<p class="text-lg">{PUBLIC_OWNER_NAME}</p>
 
-	<h2 id="m56" class="mt-8 mb-4 text-2xl font-semibold">Kontaktmöglichkeiten</h2>
+	<h2 id="m56" class="mt-8 mb-4 text-2xl font-semibold">Kontakt</h2>
 	<div class="space-y-1 text-lg text-gray-700 dark:text-gray-300">
 		<p>
-			E-Mail-Adresse: <a href="mailto:{PUBLIC_OWNER_EMAIL}" class="text-primary hover:underline"
+			E-Mail: <a href="mailto:{PUBLIC_OWNER_EMAIL}" class="text-primary hover:underline"
 				>{PUBLIC_OWNER_EMAIL}</a
-			>
+			><br />
+			Telefon: auf Anfrage
 		</p>
-		<p>Telefon: auf Nachfrage</p>
+	</div>
+
+	<h2 id="m56" class="mt-8 mb-4 text-2xl font-semibold">Redaktionell verantwortlich</h2>
+	<div class="space-y-1 text-lg text-gray-700 dark:text-gray-300">
+		<p>{PUBLIC_OWNER_NAME} (Kontakt s.o.)</p>
 	</div>
 
 	<h2 id="m174" class="mt-8 mb-4 text-2xl font-semibold">Verbraucherstreitbeilegung</h2>
 	<p class="text-lg text-gray-700 dark:text-gray-300">
 		Wir sind nicht bereit und nicht verpflichtet an einem Streitbeilegungsverfahren vor einer
 		Verbraucherstreitschlichtungsstelle teilzunehmen.
-	</p>
-
-	<h2 id="m172" class="mt-8 mb-4 text-2xl font-semibold">
-		Social Media und andere Onlinepräsenzen
-	</h2>
-	<p class="text-lg text-gray-700 dark:text-gray-300">
-		Dieses Impressum gilt auch für die folgenden Social-Media-Präsenzen und Onlineprofile:
 	</p>
 
 	<h2 id="m65" class="mt-8 mb-4 text-2xl font-semibold">Haftungs- und Schutzrechtshinweise</h2>
@@ -76,13 +71,11 @@
 	</div>
 
 	<p class="seal mt-16 text-center text-sm text-gray-500 dark:text-gray-400">
-		<a
-			href="https://datenschutz-generator.de/"
-			title="Rechtstext von Dr. Schwenke - für weitere Informationen bitte anklicken."
+		Quelle: <a
+			href="https://www.e-recht24.de/impressum-generator.html"
 			target="_blank"
 			rel="noopener noreferrer nofollow"
-			class="hover:underline"
-			>Erstellt mit kostenlosem Datenschutz-Generator.de von Dr. Thomas Schwenke</a
+			class="hover:underline">https://www.e-recht24.de/impressum-generator.html</a
 		>
 	</p>
 </section>

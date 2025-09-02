@@ -14,8 +14,8 @@ const projects: Project[] = [
 		id: 2,
 		title: 'Personal Website',
 		description:
-			'Entwickelt mit SvelteKit und TailwindCSS sowie shadcn/svelte für ein modernes Design. Die Webseite ist mein persönliches Schaufenster, um Projekte wie das Jetbrains Svelte Templates Plugin und weitere Arbeiten vorzustellen.',
-		githubLink: 'https://github.com/ruben-sprengel/projekt-2',
+			'A modern, lightning-fast, and elegant personal website built with SvelteKit and the latest web technologies. This project leverages shadcn-svelte for a beautiful, accessible UI and Tailwind CSS for flexible styling.',
+		githubLink: 'https://github.com/ruben-sprengel/personal-website',
 		tags: ['Svelte', 'SvelteKit', 'TailwindCSS', 'shadcn/svelte', 'TypeScript']
 	}
 ];

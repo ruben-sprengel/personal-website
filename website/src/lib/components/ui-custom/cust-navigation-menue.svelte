@@ -11,12 +11,13 @@
 			title: 'Jetbrains Svelte Template Plugin',
 			href: '/projekte/jetbrains-svelte-templates',
 			description:
-				'A modal dialog that interrupts the user with important content and expects a response.'
+				'jetbrains-svelte-templates is a compact collection of Live Templates for JetBrains IDEs (like WebStorm and IntelliJ IDEA Ultimate) designed to speed up your Svelte & SvelteKit development. Use these templates to quickly insert essential code and boost your workflow.'
 		},
 		{
 			title: 'Personal Website',
 			href: '/projekte/personal-website',
-			description: 'For sighted users to preview content available behind a link.'
+			description:
+				'A modern, lightning-fast, and elegant personal website built with SvelteKit and the latest web technologies. This project leverages shadcn-svelte for a beautiful, accessible UI and Tailwind CSS for flexible styling.'
 		}
 	];
 
@@ -49,35 +50,44 @@
 	</li>
 {/snippet}
 
-<div class="m-4 flex items-center justify-center">
-	<NavigationMenu.Root>
-		<NavigationMenu.List class="flex gap-4">
-			<NavigationMenu.Item>
-				<NavigationMenu.Link>
-					{#snippet child()}
-						<a href="/" class={navigationMenuTriggerStyle()}>Ruben Sprengel</a>
-					{/snippet}
-				</NavigationMenu.Link>
-			</NavigationMenu.Item>
-			<NavigationMenu.Item>
-				<NavigationMenu.Trigger>Projekte</NavigationMenu.Trigger>
-				<NavigationMenu.Content>
-					<ul class="grid w-[400px] gap-2 p-2 md:w-[500px] md:grid-cols-2 lg:w-[600px]">
-						{#each projects as project, i (i)}
-							{@render ListItem({
-								href: project.href,
-								title: project.title,
-								content: project.description
-							})}
-						{/each}
-					</ul>
-				</NavigationMenu.Content>
-			</NavigationMenu.Item>
-			<NavigationMenu.Item>
-				<CustThemeModeToogleButton />
-			</NavigationMenu.Item>
-		</NavigationMenu.List>
-	</NavigationMenu.Root>
+<div class="sticky top-0 z-50 w-full border-b bg-background">
+	<div class="container mx-auto flex h-16 items-center justify-between px-4">
+		<NavigationMenu.Root>
+			<NavigationMenu.List>
+				<NavigationMenu.Item>
+					<NavigationMenu.Link>
+						{#snippet child()}
+							<a href="/" class={navigationMenuTriggerStyle()}>Ruben Sprengel</a>
+						{/snippet}
+					</NavigationMenu.Link>
+				</NavigationMenu.Item>
+			</NavigationMenu.List>
+		</NavigationMenu.Root>
+		<NavigationMenu.Root>
+			<NavigationMenu.List>
+				<NavigationMenu.Item>
+					<NavigationMenu.Trigger>Projekte</NavigationMenu.Trigger>
+					<NavigationMenu.Content>
+						<ul class="grid w-[400px] gap-2 p-2 md:w-[500px] md:grid-cols-2 lg:w-[600px]">
+							{#each projects as project, i (i)}
+								{@render ListItem({
+									href: project.href,
+									title: project.title,
+									content: project.description
+								})}
+							{/each}
+						</ul>
+					</NavigationMenu.Content>
+				</NavigationMenu.Item>
+			</NavigationMenu.List>
+		</NavigationMenu.Root>
+		<NavigationMenu.Root>
+			<NavigationMenu.List>
+				<NavigationMenu.Item>
+					<CustThemeModeToogleButton />
+				</NavigationMenu.Item>
+			</NavigationMenu.List>
+		</NavigationMenu.Root>
+	</div>
 </div>
-
 <Separator />
