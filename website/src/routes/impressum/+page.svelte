@@ -1,17 +1,17 @@
 <script lang="ts">
-	import { PUBLIC_OWNER_NAME, PUBLIC_OWNER_EMAIL } from '$env/static/public';
+	import { env } from '$env/dynamic/public';
 </script>
 
 <section class="mx-auto min-h-screen w-full max-w-4xl px-4 py-16">
 	<h1 class="mb-8 text-4xl font-bold">Impressum</h1>
 
-	<p class="text-lg">{PUBLIC_OWNER_NAME}</p>
+	<p class="text-lg">{env.PUBLIC_OWNER_NAME}</p>
 
 	<h2 id="m56" class="mt-8 mb-4 text-2xl font-semibold">Kontakt</h2>
 	<div class="space-y-1 text-lg text-gray-700 dark:text-gray-300">
 		<p>
-			E-Mail: <a href="mailto:{PUBLIC_OWNER_EMAIL}" class="text-primary hover:underline"
-				>{PUBLIC_OWNER_EMAIL}</a
+			E-Mail: <a href="mailto:{env.PUBLIC_OWNER_EMAIL}" class="text-primary hover:underline"
+				>{env.PUBLIC_OWNER_EMAIL}</a
 			><br />
 			Telefon: auf Anfrage
 		</p>
@@ -19,7 +19,7 @@
 
 	<h2 id="m56" class="mt-8 mb-4 text-2xl font-semibold">Redaktionell verantwortlich</h2>
 	<div class="space-y-1 text-lg text-gray-700 dark:text-gray-300">
-		<p>{PUBLIC_OWNER_NAME} (Kontakt s.o.)</p>
+		<p>{env.PUBLIC_OWNER_NAME} (Kontakt s.o.)</p>
 	</div>
 
 	<h2 id="m174" class="mt-8 mb-4 text-2xl font-semibold">Verbraucherstreitbeilegung</h2>

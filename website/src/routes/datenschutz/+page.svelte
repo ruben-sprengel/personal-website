@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { PUBLIC_OWNER_NAME, PUBLIC_OWNER_EMAIL } from '$env/static/public';
+	import { env } from '$env/dynamic/public';
 </script>
 
 <section class="mx-auto min-h-screen w-full max-w-4xl px-4 py-16">
@@ -114,11 +114,11 @@
 		Die verantwortliche Stelle f&uuml;r die Datenverarbeitung auf dieser Website ist:
 	</p>
 	<p class="p-2">
-		{PUBLIC_OWNER_NAME}<br />
+		{env.PUBLIC_OWNER_NAME}<br />
 	</p>
 
 	<p class="p-2">
-		E-Mail: {PUBLIC_OWNER_EMAIL}
+		E-Mail: {env.PUBLIC_OWNER_EMAIL}
 	</p>
 	<p class="p-2">
 		Verantwortliche Stelle ist die nat&uuml;rliche oder juristische Person, die allein oder

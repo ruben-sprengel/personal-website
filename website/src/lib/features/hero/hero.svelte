@@ -3,6 +3,7 @@
 	import { buttonVariants } from '$lib/components/ui/button/index.js';
 	import { scrollFade } from '$lib/actions/scrollFade';
 	import { contactOptions } from '$lib/features/contact/data';
+	import { env } from '$env/dynamic/public';
 </script>
 
 <section
@@ -12,7 +13,7 @@
 	<div class="flex-shrink-0">
 		<img
 			src={logo}
-			alt="Avatar von Ruben Sprengel"
+			alt="Avatar von {env.PUBLIC_OWNER_NAME}"
 			class="h-64 w-64 rounded-full shadow-2xl ring-4 ring-blue-600 ring-offset-4 ring-offset-white md:h-80 md:w-80 dark:ring-blue-700 dark:ring-offset-gray-950"
 		/>
 	</div>
@@ -27,7 +28,7 @@
 			<p
 				class="mt-4 text-xl leading-relaxed font-light text-gray-700 md:text-2xl dark:text-gray-400"
 			>
-				Mein Name ist Ruben Sprengel, ich bin ein leidenschaftlicher Fullstack Developer im
+				Mein Name ist {env.PUBLIC_OWNER_NAME}, ich bin ein leidenschaftlicher Fullstack Developer im
 				digitalen Gesundheitswesen. Ich baue moderne, datengetriebene und benutzerzentrierte
 				Software, die echten Mehrwert schafft.
 			</p>
