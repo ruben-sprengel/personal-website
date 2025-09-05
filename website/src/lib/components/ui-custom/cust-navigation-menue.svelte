@@ -18,6 +18,27 @@
 				</NavigationMenu.Item>
 			</NavigationMenu.List>
 		</NavigationMenu.Root>
+		<NavigationMenu.Root class="hidden sm:block">
+			<NavigationMenu.List>
+				<NavigationMenu.Item>
+					<NavigationMenu.Link>
+						{#snippet child()}
+							<a href="#skills-section" class={navigationMenuTriggerStyle()}>Expertise</a>
+						{/snippet}
+					</NavigationMenu.Link>
+					<NavigationMenu.Link>
+						{#snippet child()}
+							<a href="#projects-section" class={navigationMenuTriggerStyle()}>Projekte</a>
+						{/snippet}
+					</NavigationMenu.Link>
+					<NavigationMenu.Link>
+						{#snippet child()}
+							<a href="#contact-section" class={navigationMenuTriggerStyle()}>Kontakt</a>
+						{/snippet}
+					</NavigationMenu.Link>
+				</NavigationMenu.Item>
+			</NavigationMenu.List>
+		</NavigationMenu.Root>
 		<NavigationMenu.Root>
 			<NavigationMenu.List>
 				<NavigationMenu.Item>

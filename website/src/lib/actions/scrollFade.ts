@@ -11,7 +11,7 @@ export function scrollFade(
 ): import('svelte/action').ActionReturn {
 	const opts: Required<ScrollFadeOptions> = {
 		startVisible: false,
-		transitionDuration: '0.5s',
+		transitionDuration: '0.15s',
 		transitionTimingFunction: 'ease-in',
 		threshold: 0.3,
 		...options

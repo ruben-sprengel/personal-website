@@ -1,14 +1,13 @@
 <script lang="ts">
 	import logo from '$lib/assets/rs-logo.png';
 	import { buttonVariants } from '$lib/components/ui/button/index.js';
-	import { scrollFade } from '$lib/actions/scrollFade';
 	import { contactOptions } from '$lib/features/contact/data';
 	import { env } from '$env/dynamic/public';
 </script>
 
 <section
-	use:scrollFade
-	class="flex min-h-screen w-full flex-col items-center justify-center gap-12 px-4 py-16 lg:flex-row lg:gap-24"
+	id="hero-section"
+	class="flex h-dvh w-full flex-col items-center justify-center gap-12 px-4 py-16 lg:flex-row lg:gap-24"
 >
 	<div class="flex-shrink-0">
 		<img
@@ -40,7 +39,7 @@
 			</p>
 		</div>
 
-		<div class="flex flex-col items-center justify-center gap-4 sm:flex-row lg:justify-start">
+		<div class="flex flex-row items-center justify-center gap-4 sm:flex-row lg:justify-start">
 			{#each contactOptions as option (option.id)}
 				<a
 					href={option.link}

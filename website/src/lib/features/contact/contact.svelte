@@ -1,11 +1,10 @@
 <script lang="ts">
 	import * as Card from '$lib/components/ui/card';
 	import { buttonVariants } from '$lib/components/ui/button';
-	import { scrollFade } from '$lib/actions/scrollFade';
 	import { contactOptions } from '$lib/features/contact/data';
 </script>
 
-<section use:scrollFade class="min-h-screen w-full px-4 py-24">
+<section id="contact-section" class="w-full px-4 py-24">
 	<div class="mx-auto flex max-w-6xl flex-col items-center justify-center text-center">
 		<h2 class="text-4xl font-extrabold tracking-tight text-blue-600 md:text-5xl dark:text-blue-700">
 			Kontakt

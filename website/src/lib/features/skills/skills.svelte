@@ -1,10 +1,9 @@
 <script lang="ts">
 	import * as Card from '$lib/components/ui/card';
-	import { scrollFade } from '$lib/actions/scrollFade';
 	import { skills } from '$lib/features/skills/data';
 </script>
 
-<section use:scrollFade class="min-h-screen w-full px-4 py-24">
+<section id="skills-section" class="w-full px-4 py-24">
 	<div class="mx-auto flex max-w-6xl flex-col items-center justify-center text-center">
 		<h2 class="text-4xl font-extrabold tracking-tight text-blue-600 md:text-5xl dark:text-blue-700">
 			Meine Expertise
