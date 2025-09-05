@@ -7,7 +7,7 @@
 
 <section
 	id="hero-section"
-	class="flex h-svh w-full flex-col items-center justify-center gap-12 px-4 py-16 lg:flex-row lg:gap-24"
+	class="flex min-h-screen w-full flex-col items-center justify-center gap-12 px-4 py-16 lg:flex-row lg:gap-24"
 >
 	<div class="flex-shrink-0">
 		<img
