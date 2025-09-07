@@ -44,7 +44,7 @@
 				<a
 					href={option.link}
 					target="_blank"
-					rel="noopener"
+					rel="noopener noreferrer external"
 					class={buttonVariants({ variant: 'outline', size: 'lg' })}
 				>
 					<svelte:component this={option.icon} class="mr-2 h-4 w-4" />

@@ -41,7 +41,7 @@
 							<a
 								href={project.githubLink}
 								target="_blank"
-								rel="noopener"
+								rel="noopener noreferrer external"
 								class={buttonVariants({ variant: 'outline', size: 'lg' })}
 							>
 								<Github class="mr-2 h-4 w-4" />
@@ -51,7 +51,7 @@
 								<a
 									href={project.jetbrainsMarketplaceLink}
 									target="_blank"
-									rel="noopener"
+									rel="noopener noreferrer external"
 									class={buttonVariants({ variant: 'outline', size: 'lg' })}
 								>
 									<Store class="mr-2 h-4 w-4" />

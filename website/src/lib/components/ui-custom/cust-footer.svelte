@@ -1,17 +1,16 @@
 <script>
 	import { buttonVariants } from '$lib/components/ui/button/index.js';
 	import { env } from '$env/dynamic/public';
+
+	const currentYear = new Date().getFullYear();
 </script>
 
 <footer class="w-full bg-zinc-200 py-8 text-center text-sm dark:bg-zinc-900">
-	<p>&copy; 2025 {env.PUBLIC_OWNER_NAME}. Alle Rechte vorbehalten.</p>
+	<p>&copy; {currentYear} {env.PUBLIC_OWNER_NAME}. Alle Rechte vorbehalten.</p>
 
 	<p>
-		<a href="/datenschutz" rel="noopener" class={buttonVariants({ variant: 'link', size: 'lg' })}>
-			Datenschutz
-		</a>
-		<a href="/impressum" rel="noopener" class={buttonVariants({ variant: 'link', size: 'lg' })}>
-			Impressum
-		</a>
+		<a href="/datenschutz" class={buttonVariants({ variant: 'link', size: 'lg' })}> Datenschutz </a>
+		<a href="/impressum" class={buttonVariants({ variant: 'link', size: 'lg' })}> Impressum </a>
 	</p>
 </footer>
+`

@@ -14,7 +14,7 @@ const skills: Skill[] = [
 		icon: ShieldCheck,
 		title: 'DevOps & DevSecOps',
 		description:
-			'Automatisierung von Workflows, CI/CD-Pipelines und die Integration von Sicherheitsaspekten in den gesamten Entwicklungsprozess.'
+			'Automatisierung und Security von der Entwicklung bis zur Produktion. Fokus auf Kubernetes, CI/CD, Observability mit integrierter Security.'
 	},
 	{
 		id: 3,
