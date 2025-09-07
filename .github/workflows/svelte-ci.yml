@@ -1,4 +1,4 @@
-name: Svelte CI Pipeline
+name: Svelte CI
 
 on:
   push:
@@ -34,9 +34,12 @@ jobs:
 
       - name: install dependencies
         run: npm ci
+        working-directory: ./website/
 
       - name: lint
         run: npm run lint
+        working-directory: ./website/
 
       - name: svelte check
         run: npm run check
+        working-directory: ./website/
