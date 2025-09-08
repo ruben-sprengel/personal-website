@@ -14,9 +14,6 @@
 			alt="Avatar von {env.PUBLIC_OWNER_NAME}"
 			class="h-64 w-64 rounded-full shadow-2xl ring-4 ring-primary ring-offset-4 ring-offset-white md:h-80 md:w-80 dark:ring-offset-gray-950"
 			fetchpriority="high"
-			densities="2x"
-			width="256"
-			height="256"
 		/>
 	</div>
 
