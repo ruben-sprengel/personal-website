@@ -8,7 +8,7 @@
 <section id="projects-section" class="w-full px-4 py-24">
 	<div class="mx-auto flex max-w-6xl flex-col items-center justify-center text-center">
 		<h2 class="text-4xl font-extrabold tracking-tight text-blue-600 md:text-5xl dark:text-blue-700">
-			Private Projekte
+			Projekte
 		</h2>
 		<p class="mt-4 max-w-2xl text-xl font-light text-gray-700 md:text-2xl dark:text-gray-400">
 			Einige meiner aktuellen privaten Projekte und Beiträge auf GitHub.
