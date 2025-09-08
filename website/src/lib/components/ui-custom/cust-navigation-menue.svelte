@@ -33,6 +33,11 @@
 					</NavigationMenu.Link>
 					<NavigationMenu.Link>
 						{#snippet child()}
+							<a href="#career-section" class={navigationMenuTriggerStyle()}>Werdegang</a>
+						{/snippet}
+					</NavigationMenu.Link>
+					<NavigationMenu.Link>
+						{#snippet child()}
 							<a href="#contact-section" class={navigationMenuTriggerStyle()}>Kontakt</a>
 						{/snippet}
 					</NavigationMenu.Link>

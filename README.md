@@ -9,25 +9,33 @@ A modern, lightning-fast, and elegant personal website built with SvelteKit and 
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=for-the-badge)](https://github.com/prettier/prettier)
 [![ESLint](https://img.shields.io/badge/code%20analysis-eslint-4B32C3.svg?style=for-the-badge)](https://eslint.org)
 
-## ✨ Features
-- **SvelteKit**: Maximized performance and SEO-friendliness through Server-Side Rendering (SSR).
-- **Tailwind CSS**: Fast and consistent styling with a utility-first CSS approach.
-- **shadcn-svelte**: Ready-to-use, customizable, and accessible UI components.
-- **Responsive Design**: Optimized for desktop, tablet, and mobile devices.
-- **Vite**: A blazing-fast development experience.
-- **TypeScript**: Type safety and an improved developer experience.
-
 ## 🌐 Live Demo
 
 Check out the live version of this website: [https://ruben-sprengel.de](https://ruben-sprengel.de)
 
-## 🛠️ Technologies
+## ✨ Features
+- **[Svelte / SvelteKit](https://svelte.dev/)**: Maximized performance and SEO-friendliness through Server-Side Rendering (SSR).
+- **[Tailwind CSS](https://tailwindcss.com/)**: Fast and consistent styling with a utility-first CSS approach.
+- **[shadcn-svelte](https://www.shadcn-svelte.com/)**: Ready-to-use, customizable, and accessible UI components.
+- **Responsive Design**: Optimized for desktop, tablet, and mobile devices.
+- **[Vite](https://vite.dev/)**: A blazing-fast development experience.
+- **[TypeScript](https://www.typescriptlang.org/)**: Type safety and an improved developer experience.
 
-- [Svelte / SvelteKit](https://svelte.dev/)
-- [shadcn-svelte](https://www.shadcn-svelte.com/)
-- [Tailwind CSS](https://tailwindcss.com/)
-- [TypeScript](https://www.typescriptlang.org/)
-- [Vite](https://vite.dev/)
+## 🚀 Continuous Integration (CI)
+
+This project uses a Continuous Integration (CI) pipeline that runs automatically with every pull request and push to the main branch. This ensures that the code is consistent, high-quality, and free of obvious errors.
+
+- The CI pipeline is located in the .github/workflows/svelte-ci.yml file and performs the following steps:
+- Checkout Code: Fetches the current code from the repository.
+- Node.js Setup: Sets up the required Node.js version (v22).
+- Cache Node Modules: Uses GitHub Actions Caching to cache dependencies between runs and reduce installation time.
+- Install Dependencies: Installs all dependencies with npm ci based on the package-lock.json file.
+- Linting: Runs the linter to check for code formatting and potential style errors.
+- Svelte Check: Checks the code for type and syntax errors to ensure it's compatible with the Svelte compiler configuration.
+- Security Audit: Scans project dependencies for known security vulnerabilities and fails if critical issues are found.
+- Build: Runs a full build of the application to ensure production artifacts can be created without errors.
+
+A merge into the main branch is only possible if all of these checks have been completed successfully.
 
 ## Contributing & Support ❤️
 

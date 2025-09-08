@@ -1,5 +1,4 @@
 <script lang="ts">
-	import logo from '$lib/assets/rs-logo.png';
 	import { buttonVariants } from '$lib/components/ui/button/index.js';
 	import { contactOptions } from '$lib/features/contact/data';
 	import { env } from '$env/dynamic/public';
@@ -10,10 +9,11 @@
 	class="flex min-h-screen w-full flex-col items-center justify-center gap-12 px-4 py-16 lg:flex-row lg:gap-24"
 >
 	<div class="flex-shrink-0">
-		<img
-			src={logo}
+		<enhanced:img
+			src="/src/lib/assets/rs-logo.png"
 			alt="Avatar von {env.PUBLIC_OWNER_NAME}"
 			class="h-64 w-64 rounded-full shadow-2xl ring-4 ring-blue-600 ring-offset-4 ring-offset-white md:h-80 md:w-80 dark:ring-blue-700 dark:ring-offset-gray-950"
+			fetchpriority="high"
 		/>
 	</div>
 
@@ -44,7 +44,7 @@
 				<a
 					href={option.link}
 					target="_blank"
-					rel="noopener"
+					rel="noopener noreferrer external"
 					class={buttonVariants({ variant: 'outline', size: 'lg' })}
 				>
 					<svelte:component this={option.icon} class="mr-2 h-4 w-4" />
