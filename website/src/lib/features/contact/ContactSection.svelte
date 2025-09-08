@@ -6,10 +6,8 @@
 
 <section id="contact-section" class="w-full px-4 py-24">
 	<div class="mx-auto flex max-w-6xl flex-col items-center justify-center text-center">
-		<h2 class="text-4xl font-extrabold tracking-tight text-blue-600 md:text-5xl dark:text-blue-700">
-			Kontakt
-		</h2>
-		<p class="mt-4 max-w-2xl text-xl font-light text-gray-700 md:text-2xl dark:text-gray-400">
+		<h2 class="text-4xl font-extrabold tracking-tight text-primary md:text-5xl">Kontakt</h2>
+		<p class="mt-4 max-w-2xl text-xl font-light text-zinc-700 md:text-2xl dark:text-zinc-300">
 			Haben Sie Fragen zu meinen Projekten oder möchten Sie einfach in Kontakt treten?
 		</p>
 
@@ -19,14 +17,11 @@
 					class="flex flex-col items-center justify-center rounded-xl p-8 transition-shadow duration-300 hover:shadow-lg hover:shadow-primary"
 				>
 					<Card.Header class="flex flex-col items-center">
-						<svelte:component
-							this={option.icon}
-							class="mb-4 h-16 w-16 text-blue-600 dark:text-blue-700"
-						/>
+						<svelte:component this={option.icon} class="mb-4 h-16 w-16 text-primary" />
 						<Card.Title class="mb-2 text-center text-2xl font-semibold">{option.title}</Card.Title>
 					</Card.Header>
 					<Card.Content class="text-center">
-						<p class="text-lg leading-relaxed font-light text-gray-600 dark:text-gray-400">
+						<p class="text-lg leading-relaxed font-light text-zinc-700 dark:text-zinc-300">
 							{option.description}
 						</p>
 						<div class="mt-4">

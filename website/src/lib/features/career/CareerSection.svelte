@@ -80,9 +80,7 @@
 </script>
 
 <section class="container mx-auto max-w-2xl py-12">
-	<h2 class="text-4xl font-extrabold tracking-tight text-blue-600 md:text-5xl dark:text-blue-700">
-		Werdegang
-	</h2>
+	<h2 class="text-4xl font-extrabold tracking-tight text-primary md:text-5xl">Werdegang</h2>
 
 	<div class="mt-12 mb-12 text-center">
 		<span class="text-2xl font-bold text-amber-600">
@@ -91,19 +89,19 @@
 				und {totalExperience.months} Monate
 			{/if}
 		</span>
-		<p class="mt-2 text-lg text-muted-foreground">Berufserfahrung</p>
+		<p class="mt-2 text-lg text-zinc-700 dark:text-zinc-300">Berufserfahrung</p>
 	</div>
 
 	<div class="space-y-10">
 		{#each groupedCareerData as companyGroup (companyGroup.id)}
 			<div class="flex items-start gap-4">
 				<div class="flex flex-col items-center pt-2">
-					<div class="mt-2 w-0.5 flex-grow bg-gray-200 dark:bg-gray-800"></div>
+					<div class="mt-2 w-0.5 flex-grow bg-zinc-100 dark:bg-zinc-900"></div>
 				</div>
 
 				<div class="flex-1">
 					<h3 class="text-lg font-bold">{companyGroup.company}</h3>
-					<p class="mb-4 text-sm text-muted-foreground">
+					<p class="mb-4 text-sm text-zinc-700 dark:text-zinc-300">
 						{formatPeriod(companyGroup.start, companyGroup.end)}
 					</p>
 
@@ -133,7 +131,7 @@
 			<ExternalLink size="14" />
 		</a>
 
-		<span class="flex flex-row items-center gap-2 pl-4 text-sm text-muted-foreground">
+		<span class="flex flex-row items-center gap-2 pl-4 text-sm text-zinc-700 dark:text-zinc-300">
 			Weitere Zertifizierungen <Award class="text-amber-500" /> und Badges <Badge
 				class="text-amber-500"
 			/> können Sie über mein LinkedIn Profil einsehen.</span
