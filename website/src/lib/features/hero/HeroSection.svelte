@@ -12,27 +12,21 @@
 		<enhanced:img
 			src="/src/lib/assets/rs-logo.png"
 			alt="Avatar von {env.PUBLIC_OWNER_NAME}"
-			class="h-64 w-64 rounded-full shadow-2xl ring-4 ring-blue-600 ring-offset-4 ring-offset-white md:h-80 md:w-80 dark:ring-blue-700 dark:ring-offset-gray-950"
+			class="h-64 w-64 rounded-full shadow-2xl ring-4 ring-primary ring-offset-4 ring-offset-white md:h-80 md:w-80 dark:ring-offset-gray-950"
 			fetchpriority="high"
 		/>
 	</div>
 
 	<div class="flex max-w-xl flex-col text-center lg:text-left">
 		<div class="mb-8">
-			<h1
-				class="text-4xl font-extrabold tracking-tight text-blue-600 md:text-6xl dark:text-blue-700"
-			>
-				Moin!
-			</h1>
-			<p
-				class="mt-4 text-xl leading-relaxed font-light text-gray-700 md:text-2xl dark:text-gray-400"
-			>
+			<h1 class="text-4xl font-extrabold tracking-tight text-primary md:text-6xl">Moin!</h1>
+			<p class="mt-4 text-xl leading-relaxed font-light md:text-2xl">
 				Mein Name ist {env.PUBLIC_OWNER_NAME}, ich bin ein leidenschaftlicher Fullstack Developer im
 				digitalen Gesundheitswesen. Ich baue moderne, datengetriebene und benutzerzentrierte
 				Software, die echten Mehrwert schafft.
 			</p>
 			<p
-				class="mt-4 text-lg leading-relaxed font-light text-gray-700 md:text-xl dark:text-gray-400"
+				class="mt-4 text-lg leading-relaxed font-light text-zinc-700 md:text-xl dark:text-zinc-300"
 			>
 				Als Teil des Data Driven Services Teams bei der ITSC GmbH gestalte ich den digitalen Wandel
 				bei gesetzlichen Krankenkassen aktiv mit – agil, skalierbar und zukunftsorientiert.

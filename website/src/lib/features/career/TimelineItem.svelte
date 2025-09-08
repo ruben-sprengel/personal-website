@@ -4,7 +4,7 @@
 	export let description;
 	export let isCurrent = false;
 
-	const titleClass = isCurrent ? 'font-bold text-lg text-primary' : 'font-semibold text-base';
+	const titleClass = isCurrent ? 'font-bold text-lg text-primary' : 'font-semibold';
 </script>
 
 <div class="relative mb-6 flex items-start gap-4">
