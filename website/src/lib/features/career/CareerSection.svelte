@@ -1,7 +1,8 @@
 <script lang="ts">
 	import TimelineItem from './TimelineItem.svelte';
-	import { Star, ExternalLink } from '@lucide/svelte';
+	import { Star, ExternalLink, Award, Badge } from '@lucide/svelte';
 	import { rawCareerData } from '$lib/features/career/data';
+	import { Separator } from '$lib/components/ui/separator';
 
 	const groupedCareerData = rawCareerData.map((companyGroup, companyIndex) => {
 		const positionsWithIds = companyGroup.positions.map((position, positionIndex) => ({
@@ -97,7 +98,6 @@
 		{#each groupedCareerData as companyGroup (companyGroup.id)}
 			<div class="flex items-start gap-4">
 				<div class="flex flex-col items-center pt-2">
-					<div class="h-3 w-3 flex-shrink-0 rounded-full bg-gray-400 dark:bg-gray-500"></div>
 					<div class="mt-2 w-0.5 flex-grow bg-gray-200 dark:bg-gray-800"></div>
 				</div>
 
@@ -115,13 +115,16 @@
 								description={position.description}
 								isCurrent={position.isCurrent}
 							/>
+
+							<Separator />
 						{/each}
 					</div>
 				</div>
 			</div>
 		{/each}
+
 		<a
-			class="flex flex-row items-center gap-2 text-lg"
+			class="flex flex-row items-center gap-2 pl-4 text-lg"
 			href="https://www.ihk.de/bremen-bremerhaven/bilden-qualifizieren/berufliche-ausbildung/berufe-a-z/fachinformatiker-1305336"
 			rel="noopener noreferrer external"
 			target="_blank"
@@ -129,5 +132,11 @@
 			<Star size="38" class="text-amber-500" /> 2013: Fachinformatiker - Fachrichtung Systemintegration
 			<ExternalLink size="14" />
 		</a>
+
+		<span class="flex flex-row items-center gap-2 pl-4 text-sm text-muted-foreground">
+			Weitere Zertifizierungen <Award class="text-amber-500" /> und Badges <Badge
+				class="text-amber-500"
+			/> können Sie über mein LinkedIn Profil einsehen.</span
+		>
 	</div>
 </section>

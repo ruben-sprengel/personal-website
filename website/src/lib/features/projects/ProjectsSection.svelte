@@ -1,5 +1,6 @@
 <script lang="ts">
 	import * as Card from '$lib/components/ui/card';
+	import { Badge } from '$lib/components/ui/badge/index.js';
 	import { buttonVariants } from '$lib/components/ui/button';
 	import { Github, Store } from '@lucide/svelte';
 	import { projects } from '$lib/features/projects/data';
@@ -30,11 +31,7 @@
 					<Card.Footer class="flex flex-col gap-2">
 						<div class="flex flex-row flex-wrap gap-2">
 							{#each project.tags as tag (tag)}
-								<span
-									class="inline-flex items-center rounded-full bg-blue-100 px-3 py-1 text-xs font-medium text-blue-600 dark:bg-blue-600 dark:text-blue-200"
-								>
-									{tag}
-								</span>
+								<Badge variant="default" class="text-white">{tag}</Badge>
 							{/each}
 						</div>
 						<div class="mt-4 flex flex-row gap-2">
