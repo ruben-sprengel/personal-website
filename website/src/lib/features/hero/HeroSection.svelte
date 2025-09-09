@@ -22,8 +22,8 @@
 			<h1 class="text-4xl font-extrabold tracking-tight text-primary md:text-6xl">Moin!</h1>
 			<p class="mt-4 text-xl leading-relaxed font-light md:text-2xl">
 				Mein Name ist {env.PUBLIC_OWNER_NAME}, ich bin ein leidenschaftlicher Fullstack Developer im
-				digitalen Gesundheitswesen. Ich baue moderne, datengetriebene und benutzerzentrierte
-				Software, die echten Mehrwert schafft.
+				digitalen Gesundheitswesen. Ich baue moderne, cloud-native Software, welche durch
+				datengetriebene und benutzerzentrierte Ansätze spürbare Mehrwerte schafft.
 			</p>
 			<p
 				class="mt-4 text-lg leading-relaxed font-light text-zinc-700 md:text-xl dark:text-zinc-300"
