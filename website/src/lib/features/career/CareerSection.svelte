@@ -72,14 +72,14 @@
 			{getExperienceString(true)}
 		</div>
 
-		<div class="space-y-10">
+		<div class="mt-4 grid grid-cols-1">
 			{#each groupedCareerData as companyGroup (companyGroup.id)}
 				<div class="flex items-start gap-4">
 					<div class="flex flex-col items-center pt-2">
 						<div class="mt-2 w-0.5 flex-grow bg-zinc-100 dark:bg-zinc-900"></div>
 					</div>
 
-					<div class="flex-1">
+					<div class="mt-4 flex-1">
 						<h3 class="text-lg font-bold">{companyGroup.company}</h3>
 						<p class="mb-4 text-sm text-zinc-700 dark:text-zinc-300">
 							{formatPeriod(companyGroup.start, companyGroup.end)}
@@ -96,16 +96,18 @@
 			{/each}
 
 			<a
-				class="flex flex-row items-center gap-2 pl-4 text-lg"
+				class="mt-4 flex flex-row items-center gap-2 pl-4 text-lg"
 				href="https://www.ihk.de/bremen-bremerhaven/bilden-qualifizieren/berufliche-ausbildung/berufe-a-z/fachinformatiker-1305336"
 				rel="noopener noreferrer external"
 				target="_blank"
 			>
 				<Star size="38" class="text-amber-500" /> 2013: Fachinformatiker - Fachrichtung Systemintegration
-				<ExternalLink size="14" />
+				<ExternalLink size="20" />
 			</a>
 
-			<span class="flex flex-row items-center gap-2 pl-4 text-sm text-zinc-700 dark:text-zinc-300">
+			<span
+				class="mt-4 flex flex-row items-center gap-2 pl-4 text-sm text-zinc-700 dark:text-zinc-300"
+			>
 				<Award class="text-amber-500" /> Weitere Zertifizierungen und Badges sind über mein LinkedIn
 				Profil einsehbar.
 			</span>

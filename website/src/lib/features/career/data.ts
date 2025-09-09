@@ -11,7 +11,7 @@ const rawCareerData: Company[] = [
 				start: '01/2023',
 				end: 'now',
 				description:
-					'Konzeption und Entwicklung hochmoderner, cloud-nativer Software, die durch datengetriebene und benutzerzentrierte Ansätze spürbaren Mehrwert für Versicherte und Krankenkassen schafft.',
+					'Konzeption und Entwicklung moderner, cloud-nativer Software, die durch datengetriebene und benutzerzentrierte Ansätze spürbaren Mehrwert für Versicherte und Krankenkassen schafft.',
 				skills: [
 					{
 						id: 1,
@@ -97,7 +97,7 @@ const rawCareerData: Company[] = [
 		end: '03/2021',
 		positions: [
 			{
-				title: 'Vergangene Positionen',
+				title: 'Vergangene Positionen (Bereich IT)',
 				start: '11/2013',
 				end: '03/2021',
 				description: 'Details sind über mein LinkedIn Profil einsehbar.',

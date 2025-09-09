@@ -29,7 +29,7 @@
 					<Card.Footer class="flex flex-col gap-2">
 						<div class="flex flex-row flex-wrap gap-2">
 							{#each project.tags as tag (tag)}
-								<Badge variant="default" class="text-zinc-700 dark:text-zinc-300">{tag}</Badge>
+								<Badge variant="outline" class="text-zinc-700 dark:text-zinc-300">{tag}</Badge>
 							{/each}
 						</div>
 						<div class="mt-4 flex flex-row gap-2">

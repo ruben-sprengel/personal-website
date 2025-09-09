@@ -22,8 +22,8 @@
 	<div class="flex-1">
 		<h4 class={titleClass}>{data.title}</h4>
 		<p class="mb-1 text-sm text-muted-foreground">{formatPeriod(data.start, data.end)}</p>
-		<p class="">{data.description}</p>
-		<div class="flex flex-grow gap-2 p-2">
+		<p class="text-wrap">{data.description}</p>
+		<div class="flex flex-wrap gap-2 p-2">
 			{#each data.skills as skill (skill.id)}
 				<Badge variant="outline">{skill.name}</Badge>
 			{/each}
