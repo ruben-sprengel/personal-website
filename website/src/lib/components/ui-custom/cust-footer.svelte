@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
 	import { buttonVariants } from '$lib/components/ui/button/index.js';
 	import { env } from '$env/dynamic/public';
 

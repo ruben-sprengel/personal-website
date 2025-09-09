@@ -4,10 +4,12 @@
 
 A modern, lightning-fast, and elegant personal website built with SvelteKit and the latest web technologies. This project leverages shadcn-svelte for a beautiful, accessible UI and Tailwind CSS for flexible styling.
 
+[![GitHub Releases](https://img.shields.io/github/v/release/ruben-sprengel/personal-website?label=GitHub%20Release)](https://github.com/ruben-sprengel/personal-website/releases)
+[![Svelte CI](https://github.com/ruben-sprengel/personal-website/actions/workflows/svelte-ci.yml/badge.svg?branch=main)](https://github.com/ruben-sprengel/personal-website/actions/workflows/svelte-ci.yml)
+[![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
+[![ESLint](https://img.shields.io/badge/code%20analysis-eslint-4B32C3.svg)](https://eslint.org)
+
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/rubensprengel)
-[![GitHub Releases](https://img.shields.io/github/v/release/ruben-sprengel/personal-website?style=for-the-badge&label=GitHub%20Release)](https://github.com/ruben-sprengel/personal-website/releases)
-[![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=for-the-badge)](https://github.com/prettier/prettier)
-[![ESLint](https://img.shields.io/badge/code%20analysis-eslint-4B32C3.svg?style=for-the-badge)](https://eslint.org)
 
 ## 🌐 Live Demo
 
