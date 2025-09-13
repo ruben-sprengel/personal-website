@@ -7,8 +7,8 @@
 </script>
 
 <svelte:head>
-    <title>Ruben Sprengel</title>
-    <meta name="description" content="Personal Website von Ruben Sprengel" />
+	<title>Ruben Sprengel</title>
+	<meta name="description" content="Personal Website von Ruben Sprengel" />
 </svelte:head>
 
 <HeroSection />
