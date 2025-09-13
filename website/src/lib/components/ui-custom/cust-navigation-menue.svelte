@@ -23,22 +23,22 @@
 				<NavigationMenu.Item>
 					<NavigationMenu.Link>
 						{#snippet child()}
-							<a href="#skills-section" class={navigationMenuTriggerStyle()}>Expertise</a>
+							<a href="/#skills-section" class={navigationMenuTriggerStyle()}>Expertise</a>
 						{/snippet}
 					</NavigationMenu.Link>
 					<NavigationMenu.Link>
 						{#snippet child()}
-							<a href="#projects-section" class={navigationMenuTriggerStyle()}>Projekte</a>
+							<a href="/#projects-section" class={navigationMenuTriggerStyle()}>Projekte</a>
 						{/snippet}
 					</NavigationMenu.Link>
 					<NavigationMenu.Link>
 						{#snippet child()}
-							<a href="#career-section" class={navigationMenuTriggerStyle()}>Werdegang</a>
+							<a href="/#career-section" class={navigationMenuTriggerStyle()}>Werdegang</a>
 						{/snippet}
 					</NavigationMenu.Link>
 					<NavigationMenu.Link>
 						{#snippet child()}
-							<a href="#contact-section" class={navigationMenuTriggerStyle()}>Kontakt</a>
+							<a href="/#contact-section" class={navigationMenuTriggerStyle()}>Kontakt</a>
 						{/snippet}
 					</NavigationMenu.Link>
 				</NavigationMenu.Item>
