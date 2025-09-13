@@ -10,8 +10,6 @@
 
 <svelte:head>
 	<link rel="icon" href={favicon} />
-	<title>Ruben Sprengel</title>
-	<meta name="description" content="Personal Website von Ruben Sprengel" />
 </svelte:head>
 
 <ModeWatcher />

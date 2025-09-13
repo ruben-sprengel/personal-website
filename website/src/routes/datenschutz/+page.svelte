@@ -2,6 +2,11 @@
 	import { env } from '$env/dynamic/public';
 </script>
 
+<svelte:head>
+    <title>Ruben Sprengel | Datenschutz</title>
+    <meta name="robots" content="noindex">
+</svelte:head>
+
 <section class="mx-auto min-h-screen w-full max-w-4xl px-4 py-16">
 	<h1 class="text-4xl">Datenschutz&shy;erkl&auml;rung</h1>
 

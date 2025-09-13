@@ -6,6 +6,11 @@
 	import CareerSection from '$lib/features/career/CareerSection.svelte';
 </script>
 
+<svelte:head>
+    <title>Ruben Sprengel</title>
+    <meta name="description" content="Personal Website von Ruben Sprengel" />
+</svelte:head>
+
 <HeroSection />
 
 <SkillsSection />

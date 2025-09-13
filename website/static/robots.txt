@@ -2,3 +2,5 @@ User-agent: *
 Disallow: /admin/
 Disallow: /temp/
 Disallow: /private/
+Disallow: /impressum
+Disallow: /datenschutz
