@@ -23,6 +23,11 @@
 				<NavigationMenu.Item>
 					<NavigationMenu.Link>
 						{#snippet child()}
+							<a href="/#about-me-section" class={navigationMenuTriggerStyle()}>Über Mich</a>
+						{/snippet}
+					</NavigationMenu.Link>
+					<NavigationMenu.Link>
+						{#snippet child()}
 							<a href="/#skills-section" class={navigationMenuTriggerStyle()}>Expertise</a>
 						{/snippet}
 					</NavigationMenu.Link>

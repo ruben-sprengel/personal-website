@@ -4,6 +4,7 @@
 	import ProjectsSection from '$lib/features/projects/ProjectsSection.svelte';
 	import SkillsSection from '$lib/features/skills/SkillsSection.svelte';
 	import CareerSection from '$lib/features/career/CareerSection.svelte';
+	import AboutMeSection from '$lib/features/aboutMe/AboutMeSection.svelte';
 </script>
 
 <svelte:head>
@@ -12,6 +13,8 @@
 </svelte:head>
 
 <HeroSection />
+
+<AboutMeSection />
 
 <SkillsSection />
 
