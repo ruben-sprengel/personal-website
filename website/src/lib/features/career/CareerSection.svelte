@@ -61,14 +61,12 @@
 	}
 </script>
 
-<section id="career-section" class="w-full px-4 py-24">
-	<div class="mx-auto flex max-w-6xl flex-col items-center justify-center">
-		<h2 class="text-4xl font-extrabold tracking-tight text-primary md:text-5xl">Werdegang</h2>
-		<p class="mt-4 max-w-2xl text-xl font-light text-zinc-700 md:text-2xl dark:text-zinc-300">
-			In über 11 Jahren in der IT habe ich mir eine starke technische Expertise aufgebaut.
-			Gleichzeitig habe ich gelernt, dass wahre Erfolge auf exzellenter Kommunikation und Teamwork
-			basieren.
-		</p>
+<section id="career-section" class="flex w-full items-center justify-center px-4 py-24">
+	<div class="max-w-6xl">
+		<div class="mb-8 text-center md:text-left">
+			<h1 class="text-4xl font-extrabold tracking-tight text-primary md:text-6xl">Werdegang</h1>
+		</div>
+
 		<div
 			class="mt-12 mb-12 flex flex-row items-center justify-center gap-4 text-center text-2xl font-bold text-amber-600"
 		>

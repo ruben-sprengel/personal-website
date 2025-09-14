@@ -6,10 +6,12 @@
 	import { projects } from '$lib/features/projects/data';
 </script>
 
-<section id="projects-section" class="w-full px-4 py-24">
-	<div class="mx-auto flex max-w-6xl flex-col items-center justify-center text-center">
-		<h2 class="text-4xl font-extrabold tracking-tight text-primary md:text-5xl">Projekte</h2>
-		<p class="mt-4 max-w-2xl text-xl font-light text-zinc-700 md:text-2xl dark:text-zinc-300">
+<section id="projects-section" class="flex w-full items-center justify-center px-4 py-24">
+	<div class="max-w-6xl">
+		<div class="mb-8 text-center md:text-left">
+			<h1 class="text-4xl font-extrabold tracking-tight text-primary md:text-6xl">Projekte</h1>
+		</div>
+		<p class="mt-4 text-xl font-light text-zinc-700 md:text-2xl dark:text-zinc-300">
 			Einige meiner aktuellen privaten Projekte und Beiträge auf GitHub.
 		</p>
 
