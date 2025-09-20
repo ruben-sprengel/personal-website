@@ -1,0 +1,190 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-09-19T22:20:03.470Z\n"
+"PO-Revision-Date: 2025-09-19T23:58:16.321Z\n"
+"Last-Translator: \n"
+"Language: de\n"
+"Language-Team: \n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n == 1 ? 0 : 1;\n"
+"MIME-Version: 1.0\n"
+
+#: src/routes/+error.svelte
+msgid ""
+"Es tut uns leid, aber die Seite, die Sie suchen, konnte nicht gefunden werden oder es ist ein\n"
+"unerwarteter Fehler aufgetreten."
+msgstr ""
+"Es tut uns leid, aber die Seite, die Sie suchen, konnte nicht gefunden werden oder es ist ein\n"
+"unerwarteter Fehler aufgetreten."
+
+#: src/routes/+page.svelte
+#: src/lib/components/ui-custom/cust-navigation-menue.svelte
+msgid "Ruben Sprengel"
+msgstr "Ruben Sprengel"
+
+#: src/routes/+page.svelte
+msgid "Personal Website von Ruben Sprengel"
+msgstr "Personal Website von Ruben Sprengel"
+
+#. placeholder {0}: currentYear
+#. placeholder {1}: env.PUBLIC_OWNER_NAME
+#: src/lib/components/ui-custom/cust-footer.svelte
+msgid "© {0} {1}. Alle Rechte vorbehalten."
+msgstr "© {0} {1}. Alle Rechte vorbehalten."
+
+#: src/lib/components/ui-custom/cust-footer.svelte
+msgid "Datenschutz"
+msgstr "Datenschutz"
+
+#: src/lib/components/ui-custom/cust-footer.svelte
+msgid "Impressum"
+msgstr "Impressum"
+
+#: src/lib/components/ui-custom/cust-navigation-menue.svelte
+msgid "Über Mich"
+msgstr "Über Mich"
+
+#: src/lib/components/ui-custom/cust-navigation-menue.svelte
+#: src/lib/features/skills/SkillsSection.svelte
+msgid "Expertise"
+msgstr "Expertise"
+
+#: src/lib/components/ui-custom/cust-navigation-menue.svelte
+#: src/lib/features/projects/ProjectsSection.svelte
+msgid "Projekte"
+msgstr "Projekte"
+
+#: src/lib/components/ui-custom/cust-navigation-menue.svelte
+#: src/lib/features/career/CareerSection.svelte
+msgid "Werdegang"
+msgstr "Werdegang"
+
+#: src/lib/components/ui-custom/cust-navigation-menue.svelte
+#: src/lib/features/contact/ContactSection.svelte
+msgid "Kontakt"
+msgstr "Kontakt"
+
+#: src/lib/components/ui-custom/cust-theme-mode-toogle-button.svelte
+msgid "Toggle theme"
+msgstr "Toggle theme"
+
+#: src/lib/components/ui-custom/CustTogglei18nLocale.svelte
+msgid "Sprache wechseln"
+msgstr "Sprache wechseln"
+
+#: src/lib/components/ui-custom/CustTogglei18nLocale.svelte
+msgid "DE"
+msgstr "DE"
+
+#: src/lib/components/ui-custom/CustTogglei18nLocale.svelte
+msgid "EN"
+msgstr "EN"
+
+#: src/lib/features/aboutMe/AboutMeSection.svelte
+msgid "Über mich"
+msgstr "Über mich"
+
+#: src/lib/features/aboutMe/AboutMeSection.svelte
+msgid ""
+"Mit mehr als einem Jahrzehnt Erfahrung in der IT habe ich eine fundierte technische\n"
+"Expertise aufgebaut."
+msgstr ""
+"Mit mehr als einem Jahrzehnt Erfahrung in der IT habe ich eine fundierte technische\n"
+"Expertise aufgebaut."
+
+#: src/lib/features/aboutMe/AboutMeSection.svelte
+msgid ""
+"Aktuell gestalte ich als Teil des Data Driven Services Teams bei der ITSC GmbH den\n"
+"digitalen Wandel im Gesundheitswesen aktiv mit. Wir entwickeln agile und skalierbare\n"
+"Software, die den Arbeitsalltag gesetzlicher Krankenkassen zukunftsorientiert verbessert."
+msgstr ""
+"Aktuell gestalte ich als Teil des Data Driven Services Teams bei der ITSC GmbH den\n"
+"digitalen Wandel im Gesundheitswesen aktiv mit. Wir entwickeln agile und skalierbare\n"
+"Software, die den Arbeitsalltag gesetzlicher Krankenkassen zukunftsorientiert verbessert."
+
+#: src/lib/features/aboutMe/AboutMeSection.svelte
+msgid "Ich kombiniere meine professionelle Arbeit mit persönlicher Neugier."
+msgstr "Ich kombiniere meine professionelle Arbeit mit persönlicher Neugier."
+
+#: src/lib/features/aboutMe/AboutMeSection.svelte
+msgid ""
+"In meiner Freizeit engagiere ich mich in Open-Source-Projekten und nutze mein Homelab als\n"
+"kreativen Spielplatz, um mein Wissen stetig zu erweitern. Diese praxisnahe Weiterbildung\n"
+"ist die Grundlage für meine innovationsorientierte Arbeitsweise."
+msgstr ""
+"In meiner Freizeit engagiere ich mich in Open-Source-Projekten und nutze mein Homelab als\n"
+"kreativen Spielplatz, um mein Wissen stetig zu erweitern. Diese praxisnahe Weiterbildung\n"
+"ist die Grundlage für meine innovationsorientierte Arbeitsweise."
+
+#: src/lib/features/career/CareerSection.svelte
+msgid "Jahr"
+msgstr "Jahr"
+
+#: src/lib/features/career/CareerSection.svelte
+msgid "Jahre"
+msgstr "Jahre"
+
+#: src/lib/features/career/CareerSection.svelte
+msgid "Monat"
+msgstr "Monat"
+
+#: src/lib/features/career/CareerSection.svelte
+msgid "Monate"
+msgstr "Monate"
+
+#: src/lib/features/career/CareerSection.svelte
+msgid "<0/> 2013: Fachinformatiker - Fachrichtung Systemintegration <1/>"
+msgstr "<0/> 2013: Fachinformatiker - Fachrichtung Systemintegration <1/>"
+
+#: src/lib/features/career/CareerSection.svelte
+msgid ""
+"<0/> Weitere Zertifizierungen und Badges sind über mein LinkedIn\n"
+"Profil einsehbar."
+msgstr ""
+"<0/> Weitere Zertifizierungen und Badges sind über mein LinkedIn\n"
+"Profil einsehbar."
+
+#: src/lib/features/contact/ContactSection.svelte
+msgid "Haben Sie Fragen zu meinen Projekten oder möchten Sie einfach in Kontakt treten?"
+msgstr "Haben Sie Fragen zu meinen Projekten oder möchten Sie einfach in Kontakt treten?"
+
+#: src/lib/features/contact/ContactSection.svelte
+msgid "Kontakt <0/>"
+msgstr "Kontakt <0/>"
+
+#: src/lib/features/hero/HeroSection.svelte
+msgid "Moin!"
+msgstr "Moin!"
+
+#. placeholder {0}: env.PUBLIC_OWNER_NAME
+#: src/lib/features/hero/HeroSection.svelte
+msgid "Ich bin {0}."
+msgstr "Ich bin {0}."
+
+#: src/lib/features/hero/HeroSection.svelte
+msgid "Ich baue mit Leidenschaft moderne Software, welche spürbare Mehrwerte schafft."
+msgstr "Ich baue mit Leidenschaft moderne Software, welche spürbare Mehrwerte schafft."
+
+#. placeholder {0}: env.PUBLIC_OWNER_NAME
+#: src/lib/features/hero/HeroSection.svelte
+msgid "Avatar von {0}"
+msgstr "Avatar von {0}"
+
+#: src/lib/features/projects/ProjectsSection.svelte
+msgid "Einige meiner aktuellen privaten Projekte und Beiträge auf GitHub."
+msgstr "Einige meiner aktuellen privaten Projekte und Beiträge auf GitHub."
+
+#: src/lib/features/projects/ProjectsSection.svelte
+msgid "<0/> GitHub"
+msgstr "<0/> GitHub"
+
+#: src/lib/features/projects/ProjectsSection.svelte
+msgid "<0/> Jetbrains Marketplace"
+msgstr "<0/> Jetbrains Marketplace"
+
+#: src/lib/features/skills/SkillsSection.svelte
+msgid "Ein Überblick über Schwerpunkte, die meine Arbeit prägen."
+msgstr "Ein Überblick über Schwerpunkte, die meine Arbeit prägen."

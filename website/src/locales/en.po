@@ -1,0 +1,190 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-09-19T22:20:03.559Z\n"
+"PO-Revision-Date: 2025-09-19T23:58:16.322Z\n"
+"Last-Translator: \n"
+"Language: en\n"
+"Language-Team: \n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n == 1 ? 0 : 1;\n"
+"MIME-Version: 1.0\n"
+
+#: src/routes/+error.svelte
+msgid ""
+"Es tut uns leid, aber die Seite, die Sie suchen, konnte nicht gefunden werden oder es ist ein\n"
+"unerwarteter Fehler aufgetreten."
+msgstr ""
+"We're sorry, but the page you're looking for could not be found or an unexpected\n"
+"error has occurred."
+
+#. placeholder {0}: currentYear
+#. placeholder {1}: env.PUBLIC_OWNER_NAME
+#: src/lib/components/ui-custom/cust-footer.svelte
+msgid "© {0} {1}. Alle Rechte vorbehalten."
+msgstr "© {0} {1}. All rights reserved."
+
+#: src/lib/components/ui-custom/cust-footer.svelte
+msgid "Datenschutz"
+msgstr "Privacy Policy"
+
+#: src/lib/components/ui-custom/cust-footer.svelte
+msgid "Impressum"
+msgstr "Legal Notice"
+
+#: src/lib/components/ui-custom/cust-theme-mode-toogle-button.svelte
+msgid "Toggle theme"
+msgstr "Toggle theme"
+
+#: src/lib/components/ui-custom/CustTogglei18nLocale.svelte
+msgid "Sprache wechseln"
+msgstr "Sprache wechseln"
+
+#: src/lib/components/ui-custom/CustTogglei18nLocale.svelte
+msgid "DE"
+msgstr "DE"
+
+#: src/lib/components/ui-custom/CustTogglei18nLocale.svelte
+msgid "EN"
+msgstr "EN"
+
+#: src/lib/features/aboutMe/AboutMeSection.svelte
+msgid "Über mich"
+msgstr "About me"
+
+#: src/lib/features/aboutMe/AboutMeSection.svelte
+msgid ""
+"Mit mehr als einem Jahrzehnt Erfahrung in der IT habe ich eine fundierte technische\n"
+"Expertise aufgebaut."
+msgstr ""
+"With more than a decade of experience in IT, I have built a solid technical\n"
+"expertise."
+
+#: src/lib/features/aboutMe/AboutMeSection.svelte
+msgid ""
+"Aktuell gestalte ich als Teil des Data Driven Services Teams bei der ITSC GmbH den\n"
+"digitalen Wandel im Gesundheitswesen aktiv mit. Wir entwickeln agile und skalierbare\n"
+"Software, die den Arbeitsalltag gesetzlicher Krankenkassen zukunftsorientiert verbessert."
+msgstr ""
+"Currently, as part of the Data Driven Services team at ITSC GmbH, I'm actively shaping\n"
+"the digital transformation in the healthcare sector. We develop agile and scalable\n"
+"software that improves the daily work of public health insurance companies in a future-oriented way."
+
+#: src/lib/features/aboutMe/AboutMeSection.svelte
+msgid "Ich kombiniere meine professionelle Arbeit mit persönlicher Neugier."
+msgstr "I combine my professional work with personal curiosity."
+
+#: src/lib/features/aboutMe/AboutMeSection.svelte
+msgid ""
+"In meiner Freizeit engagiere ich mich in Open-Source-Projekten und nutze mein Homelab als\n"
+"kreativen Spielplatz, um mein Wissen stetig zu erweitern. Diese praxisnahe Weiterbildung\n"
+"ist die Grundlage für meine innovationsorientierte Arbeitsweise."
+msgstr ""
+"In my free time, I'm involved in open-source projects and use my homelab as a\n"
+"creative playground to continuously expand my knowledge. This hands-on learning\n"
+"is the foundation for my innovation-driven approach."
+
+#: src/routes/+page.svelte
+#: src/lib/components/ui-custom/cust-navigation-menue.svelte
+msgid "Ruben Sprengel"
+msgstr "Ruben Sprengel"
+
+#: src/lib/components/ui-custom/cust-navigation-menue.svelte
+msgid "Über Mich"
+msgstr "About Me"
+
+#: src/lib/components/ui-custom/cust-navigation-menue.svelte
+#: src/lib/features/skills/SkillsSection.svelte
+msgid "Expertise"
+msgstr "Expertise"
+
+#: src/lib/components/ui-custom/cust-navigation-menue.svelte
+#: src/lib/features/projects/ProjectsSection.svelte
+msgid "Projekte"
+msgstr "Projects"
+
+#: src/lib/components/ui-custom/cust-navigation-menue.svelte
+#: src/lib/features/career/CareerSection.svelte
+msgid "Werdegang"
+msgstr "Career"
+
+#: src/lib/components/ui-custom/cust-navigation-menue.svelte
+#: src/lib/features/contact/ContactSection.svelte
+msgid "Kontakt"
+msgstr "Contact"
+
+#: src/lib/features/career/CareerSection.svelte
+msgid "Jahr"
+msgstr "Year"
+
+#: src/lib/features/career/CareerSection.svelte
+msgid "Jahre"
+msgstr "Years"
+
+#: src/lib/features/career/CareerSection.svelte
+msgid "Monat"
+msgstr "Month"
+
+#: src/lib/features/career/CareerSection.svelte
+msgid "Monate"
+msgstr "Months"
+
+#: src/lib/features/career/CareerSection.svelte
+msgid "<0/> 2013: Fachinformatiker - Fachrichtung Systemintegration <1/>"
+msgstr "<0/> 2013: Fachinformatiker - Fachrichtung Systemintegration <1/>"
+
+#: src/lib/features/career/CareerSection.svelte
+msgid ""
+"<0/> Weitere Zertifizierungen und Badges sind über mein LinkedIn\n"
+"Profil einsehbar."
+msgstr ""
+"<0/> Further certifications and badges can be viewed on my LinkedIn\n"
+"profile."
+
+#: src/routes/+page.svelte
+msgid "Personal Website von Ruben Sprengel"
+msgstr "Personal Website from Ruben Sprengel"
+
+#: src/lib/features/contact/ContactSection.svelte
+msgid "Haben Sie Fragen zu meinen Projekten oder möchten Sie einfach in Kontakt treten?"
+msgstr "Do you have questions about my projects or would you just like to get in touch?"
+
+#: src/lib/features/contact/ContactSection.svelte
+msgid "Kontakt <0/>"
+msgstr "Contact <0/>"
+
+#: src/lib/features/projects/ProjectsSection.svelte
+msgid "Einige meiner aktuellen privaten Projekte und Beiträge auf GitHub."
+msgstr "Some of my current personal projects and contributions on GitHub."
+
+#: src/lib/features/projects/ProjectsSection.svelte
+msgid "<0/> GitHub"
+msgstr "<0/> GitHub"
+
+#: src/lib/features/projects/ProjectsSection.svelte
+msgid "<0/> Jetbrains Marketplace"
+msgstr "<0/> Jetbrains Marketplace"
+
+#: src/lib/features/hero/HeroSection.svelte
+msgid "Moin!"
+msgstr "Hello!"
+
+#. placeholder {0}: env.PUBLIC_OWNER_NAME
+#: src/lib/features/hero/HeroSection.svelte
+msgid "Ich bin {0}."
+msgstr "I am {0}."
+
+#: src/lib/features/hero/HeroSection.svelte
+msgid "Ich baue mit Leidenschaft moderne Software, welche spürbare Mehrwerte schafft."
+msgstr "I'm passionate about building modern software that creates tangible value."
+
+#. placeholder {0}: env.PUBLIC_OWNER_NAME
+#: src/lib/features/hero/HeroSection.svelte
+msgid "Avatar von {0}"
+msgstr "Avatar from {0}"
+
+#: src/lib/features/skills/SkillsSection.svelte
+msgid "Ein Überblick über Schwerpunkte, die meine Arbeit prägen."
+msgstr "An overview of the key areas that shape my work."

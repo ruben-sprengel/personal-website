@@ -58,7 +58,7 @@
 		"vite": "^7.1.5",
 		"vitest": "^3.2.4",
 		"vitest-browser-svelte": "^1.1.0",
-		"wuchale": "^0.16.2"
+		"wuchale": "^0.16.3"
 	},
 	"dependencies": {
 		"mode-watcher": "^1.1.0"

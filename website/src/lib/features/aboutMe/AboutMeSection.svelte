@@ -1,6 +1,3 @@
-<script lang="ts">
-</script>
-
 <section id="about-me-section" class="flex w-full items-center justify-center px-4 py-24">
 	<div class="max-w-6xl">
 		<div class="mb-8 text-center md:text-left">

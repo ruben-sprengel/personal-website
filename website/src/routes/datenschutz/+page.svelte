@@ -1,3 +1,4 @@
+<!-- @wc-ignore-file -->
 <script lang="ts">
 	import { env } from '$env/dynamic/public';
 </script>

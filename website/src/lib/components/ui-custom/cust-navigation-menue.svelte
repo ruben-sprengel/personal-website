@@ -1,8 +1,9 @@
 <script lang="ts">
 	import * as NavigationMenu from '$lib/components/ui/navigation-menu/index.js';
-	import CustThemeModeToogleButton from './cust-theme-mode-toogle-button.svelte';
+	import CustThemeModeToogleButton from '$lib/components/ui-custom/cust-theme-mode-toogle-button.svelte';
 	import { Separator } from '$lib/components/ui/separator';
 	import { navigationMenuTriggerStyle } from '$lib/components/ui/navigation-menu/navigation-menu-trigger.svelte';
+	import CustTogglei18nLocale from '$lib/components/ui-custom/CustTogglei18nLocale.svelte';
 </script>
 
 <div class="sticky top-0 z-50 w-full border-b bg-background">
@@ -51,6 +52,9 @@
 		</NavigationMenu.Root>
 		<NavigationMenu.Root>
 			<NavigationMenu.List>
+				<NavigationMenu.Item>
+					<CustTogglei18nLocale />
+				</NavigationMenu.Item>
 				<NavigationMenu.Item>
 					<CustThemeModeToogleButton />
 				</NavigationMenu.Item>
